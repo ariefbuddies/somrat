@@ -693,7 +693,6 @@ input:checked + label span:last-child {
   font-size: 28px;
   -webkit-transition: color 2s;
   transition: color 2s;
-  display: block;
   margin-left: auto;
   margin-right: auto }
 }
