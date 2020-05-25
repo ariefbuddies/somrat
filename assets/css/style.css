@@ -692,7 +692,8 @@ input:checked + label span:last-child {
   color: #fff;
   font-size: 25px;
   -webkit-transition: color 1s;
-  transition: color 1s;
+  transition: color 2s;
+  align-items: center;
 }
 
 .menu-item-transparent.menu-item a {
