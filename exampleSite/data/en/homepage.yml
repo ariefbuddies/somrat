@@ -115,7 +115,7 @@ service:
 
 ############################## call to action #########################
 call_to_action:
-  enable : true
+  enable : false
   bg_image : ""
   title : "NEED A SERVICE?"
   button:
@@ -222,7 +222,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
@@ -249,7 +249,7 @@ testimonial:
 
 ######################### funfacts #############################3
 funfacts:
-  enable : true
+  enable : false
   funfacts_list:
     # funfacts item loop
     - name : "HANDS TO WORK"
@@ -274,5 +274,5 @@ funfacts:
 
 ############################## contact ###########################
 contact:
-  enable : true
+  enable : false
   title : "SAY HEI!"
