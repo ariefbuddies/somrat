@@ -67,15 +67,15 @@ name = "Portfolio"
 URL = "#portfolio"
 weight = 4
 
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
+# [[menu.main]]
+# name = "Testimonial"
+# URL = "#testimonial"
+# weight = 5
 
-[[menu.main]]
-name = "Contact"
-URL = "#contact"
-weight = 6
+# [[menu.main]]
+# name = "Contact"
+# URL = "#contact"
+# weight = 6
 
 
 #################### default parameters ################################
