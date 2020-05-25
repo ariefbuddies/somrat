@@ -691,10 +691,10 @@ input:checked + label span:last-child {
   text-decoration: none;
   color: #fff;
   font-size: 28px;
-  -webkit-transition: color 2s;
-  transition: color 2s;
+  -webkit-transition: color 1s;
+  transition: color 1s;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto; }
 }
 
 .menu-item-transparent.menu-item a {
