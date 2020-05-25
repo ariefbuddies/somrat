@@ -298,7 +298,7 @@ body {
 .head-holder .hireMe:hover {
   background: #6f6f6f;
   color: #fff;
-  border: 2px solid #6f6f6f;
+  border: 5px solid #6f6f6f;
 }
 
 input + label {
@@ -601,7 +601,7 @@ input:checked + label span:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   height: 55px;
@@ -690,7 +690,7 @@ input:checked + label span:last-child {
 .menu-item a {
   text-decoration: none;
   color: #fff;
-  font-size: 17px;
+  font-size: 25px;
   -webkit-transition: color 1s;
   transition: color 1s;
 }
