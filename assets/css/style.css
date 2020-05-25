@@ -688,12 +688,18 @@ input:checked + label span:last-child {
 }
 
 .menu-item a {
-  text-decoration: italic;
+  text-decoration: none;
   color: #fff;
-  font-size: 10px;
+  font-size: 28px;
   -webkit-transition: color 2s;
   transition: color 2s;
-  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .menu-item-transparent.menu-item a {
