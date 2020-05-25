@@ -688,12 +688,12 @@ input:checked + label span:last-child {
 }
 
 .menu-item a {
-  text-decoration: none;
+  text-decoration: italic;
   color: #fff;
-  font-size: 25px;
-  -webkit-transition: color 1s;
+  font-size: 10px;
+  -webkit-transition: color 2s;
   transition: color 2s;
-  justify-content: center;
+  justify-self: center;
 }
 
 .menu-item-transparent.menu-item a {
