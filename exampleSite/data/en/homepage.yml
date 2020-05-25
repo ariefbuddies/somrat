@@ -1,12 +1,10 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "Arief B. SETYAWAN"
 
   # animated text loop
   occupations:
     - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
 
   # slider background image loop
   slider_image:
@@ -17,7 +15,7 @@ hero:
   # button
   button:
     enable : true
-    label : "HIRE ME"
+    label : "KERJAIN SAYA"
     link : "#contact"
 
 
@@ -25,8 +23,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  first_name : "ARIEF"
+  last_name : "BUDDIES"
   
 
 ########################### About ##################################
@@ -34,7 +32,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "It's AriefB, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
   # button
   button:
     enable : true
@@ -82,9 +80,6 @@ skill:
     - name : "Database Management"
       parcentage : "90%"
       
-    # skill item loop
-    - name : "Wordpress"
-      parcentage : "70%"
 
 
 ################################### Service ##############################3
@@ -279,4 +274,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "SAY HEI!"
