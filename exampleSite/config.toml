@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://condescending-rosalind-ffd886.netlify.app/"
+baseURL = "https://gigitjari.my.id/"
 title = "Somrat | Hugo Portfolio Template"
 theme = "somrat"
 # disable language
