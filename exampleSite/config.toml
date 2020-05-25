@@ -17,21 +17,21 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-URL = "#portfolio"
-name = "Portfolio"
-weight = 4
-[[menu.main]]
-URL = "#service"
-name = "Servis"
-weight = 3
+URL = "#home"
+name = "Home"
+weight = 1
 [[menu.main]]
 URL = "#about"
 name = "TentangGw"
 weight = 2
 [[menu.main]]
-URL = "#home"
-name = "Home"
-weight = 1
+URL = "#service"
+name = "Servis"
+weight = 3
+[[menu.main]]
+URL = "#portfolio"
+name = "Portfolio"
+weight = 4
 [params]
 author = "somrat"
 contact_form_action = ""
