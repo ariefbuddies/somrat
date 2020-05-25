@@ -124,12 +124,12 @@
               <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="{{ .URL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
-            <!-- Language List -->
-            <!-- <ul class="mobile-menu-icons list-inline"> -->
-              <!-- {{ range .Site.Params.social }} -->
-              <!-- <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li> -->
-              <!-- {{ end }} -->
-            <!-- </ul> -->
+            
+             <ul class="mobile-menu-icons list-inline">
+              {{ range .Site.Params.social }}
+               <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
           </nav>
         </div>
       </div>
