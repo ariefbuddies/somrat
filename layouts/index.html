@@ -152,11 +152,7 @@
         <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
-          {{ end }}
-          {{ end }}
+      
         </div>
       </div>
       {{ with .image }}
