@@ -64,7 +64,7 @@ service:
   service_list:
   - name: Web Development
     image: images/icons/web-development.png
-  - name: Graphic Design
+  - name: Networking
     image: images/icons/graphic-design.png
   - name: Database Management
     image: images/icons/dbms.png
