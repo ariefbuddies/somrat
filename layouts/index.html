@@ -152,11 +152,11 @@
         <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
-          <!-- {{ if .button.enable }} -->
-          <!-- {{ with .button }} -->
-          <!-- <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a> -->
-          <!-- {{ end }} -->
-          <!-- {{ end }} -->
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
       {{ with .image }}
@@ -303,6 +303,115 @@
             </div>
           </div>
           {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
 <!-- =============================
        End Portfolio
     =============================== -->
+
+<!-- =============================
+       Start Testimonials
+    =============================== -->
+<section class="testimonials" id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="testimonials-container col-lg-8 offset-lg-2">
+        {{ if $data.homepage.testimonial.enable }}
+        {{ with $data.homepage.testimonial }}
+        <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .title }}</h1>
+        <div class="owl-carousel owl-theme wow fadeInUp" data-wow-duration="1.5s">
+          {{ range .testimonial_slider }}
+          <div class="single-testimonial">
+            <div class="testimonial-holder">
+              <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
+              <h2>{{ .name }}</h2>
+              <span>{{ .designation | markdownify }}</span>
+              <p><i class="fa fa-quote-left"></i> {{ .content | markdownify }} <i class="fa fa-quote-right"></i></p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+
+        {{ if $data.homepage.funfacts.enable }}
+        {{ with $data.homepage.funfacts }}
+        <div class="fun-facts wow fadeInUp" data-wow-duration="1.5s">
+          {{ range .funfacts_list }}
+          <div class="fun-fact-holder">
+            <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
+            <p class="fact-counter count" data-count="{{ .count }}">0</p>
+            <p>{{ .name }}</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =============================
+       End Testimonials
+    =============================== -->
+
+<!-- =============================
+       Start Contact
+    =============================== -->
+{{ if $data.homepage.contact.enable }}
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
+        <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1>
+        <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
+          <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="form-group col-lg-6">
+              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-lg-6">
+              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-lg-12">
+              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-lg-12 sub-button">
+              <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer col-lg-10 offset-lg-1">
+        <hr>
+        <ul class="footer-icons list-inline">
+          {{ range .Site.Params.social }}
+          <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+        <div class="to-top">
+          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="credit">
+          <i class="fa fa-copyright"></i> {{ .Site.Params.copyright | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- =============================
+       End Contact
+    =============================== -->
+<a href="#home" class="scroll-up hvr-icon-up"></a>
+
+{{ end }}
