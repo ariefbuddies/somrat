@@ -359,37 +359,6 @@
 <!-- =============================
        End Testimonials
     =============================== -->
-
-<!-- =============================
-       Start Contact
-    =============================== -->
-{{ if $data.homepage.contact.enable }}
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
-        <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1>
-        <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
-          <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12 sub-button">
-              <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
     <div class="row">
       <div class="footer col-lg-10 offset-lg-1">
         <hr>
