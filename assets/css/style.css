@@ -693,7 +693,7 @@ input:checked + label span:last-child {
   font-size: 25px;
   -webkit-transition: color 1s;
   transition: color 2s;
-  text-align: center;
+  justify-content: center;
 }
 
 .menu-item-transparent.menu-item a {
