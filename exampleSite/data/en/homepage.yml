@@ -128,19 +128,19 @@ portfolio:
   - name: Project <br> Title
     image: images/portfolio/item12.jpg
     date: Feb 2018
-    category: Graphics
+    category: Networking
   - name: Project <br> Title
     image: images/portfolio/item13.jpg
     date: Feb 2018
-    category: Graphics
+    category: Networking
   - name: Project <br> Title
     image: images/portfolio/item14.jpg
     date: Feb 2018
-    category: Graphics
+    category: Networking
   - name: Project <br> Title
     image: images/portfolio/item15.jpg
     date: Feb 2018
-    category: Graphics
+    category: Networking
 testimonial:
   enable: false
   title: TESTIMONIALS
