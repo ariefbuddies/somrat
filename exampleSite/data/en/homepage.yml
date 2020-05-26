@@ -79,7 +79,7 @@ call_to_action:
     link: "#contact"
 portfolio:
   enable: true
-  title: PORTFOLIO
+  title: Bukan portofolio saya
   portfolio_list:
   - name: Project <br> Title
     image: images/portfolio/item1.jpg
