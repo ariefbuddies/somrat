@@ -53,8 +53,8 @@ skill:
   skill_list:
   - name: Web Development
     parcentage: 80%
-  - name: Graphic Design
-    parcentage: 10%
+  - name: Networking
+    parcentage: 70%
   - name: Database Management
     parcentage: 10%
 service:
