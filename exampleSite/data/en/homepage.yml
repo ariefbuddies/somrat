@@ -34,8 +34,8 @@ experience:
   enable: true
   title: EXPERIENCE
   experience_list:
-  - name: Web Developer
-    company: Buzzer.Com
+  - name: Network Administrator
+    company: Intersat
     duration: 2016-2018
     content: Saya belajar web secara otodidak
   - name: Web Developer
