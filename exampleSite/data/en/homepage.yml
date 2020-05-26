@@ -52,7 +52,7 @@ skill:
   title: SKILL
   skill_list:
   - name: Web Development
-    parcentage: 80%
+    parcentage: 40%
   - name: Networking
     parcentage: 70%
   - name: Database Management
