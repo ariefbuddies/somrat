@@ -6,8 +6,8 @@ hero:
   - Kuli Angkut
   slider_image:
   - images/2020-05-26_10-24-07.jpg
-  - ''
-  - ''
+  - images/1590095618214_992069513.jpg
+  - images/backgrounds/contact-us-bg.jpg
   button:
     enable: true
     label: KERJAIN SAYA
